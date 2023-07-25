@@ -1,0 +1,33 @@
+.modal-header {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px;
+  text-align: center;
+
+  .close-click {
+    display: flex;
+    align-self: end;
+    position: absolute;
+    right: 16px;
+    top: 19px;
+    cursor: pointer;
+  }
+  .modal-title {
+    margin: 0 0 5px;
+    color: var(--black-1, #333);
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+  }
+  .modal-description {
+    font-size: 0.8rem;
+    color: #666;
+
+    &:first-letter {
+      text-transform: capitalize;
+    }
+  }
+}
+

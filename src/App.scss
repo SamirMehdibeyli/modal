@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+.content-main {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+.modal-upgrade {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 56px;
+}
+.content-image {
+  width: 40px;
+  height: 40px;
+  margin: 17px 20px;
+
+}
+.modal-description {
+  color: var(--black-3, #858585);
+  text-align: center;
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.modal-link {
+  color: var(--blue-gray-100, #6377a9);
+  text-align: center;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+.button-white {
+  all: unset;
+  padding: 18px 40px;
+  gap: 8px;
+  color: #6377a9;
+  border-radius: 50px;
+  border: 2px solid var(--blue-gray-100, #6377a9);
+  box-shadow: 0px 1px 2px 0px rgba(19, 16, 40, 0.05);
+  cursor: pointer;
+}
+.button-gradient {
+  all: unset;
+  padding: 18px 40px;
+  border-radius: 50px;
+  gap: 8px;
+  background: var(
+    --gradient-default,
+    linear-gradient(135deg, #20a896 0%, #6377a9 100%)
+  );
+  box-shadow: 0px 1px 2px 0px rgba(19, 16, 40, 0.05);
+  color: #fff;
+  cursor: pointer;
+   
+}
